@@ -1,3 +1,30 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@keyframes bounce {
+    0%, 100% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-20px);
+    }
+  }
+
+  .animate-bounce-custom {
+    animation: bounce 1.85s infinite !important;
+  }
+  @keyframes pulse-scale {
+    0%, 100% {
+      transform: scale(1);
+      
+    }
+    50% {
+      transform: scale(1.1);
+      box-shadow: 0 0 20px rgba(4, 172, 49, 0.8) !important;
+    }
+  }
+
+  .animate-pulse-scale {
+    animation: pulse-scale 2s infinite !important;
+  }
