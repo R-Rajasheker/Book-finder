@@ -697,7 +697,7 @@ video {
 }
 
 .animate-bounce-custom {
-  animation: bounce 1.85s infinite !important;
+  animation: bounce 2s infinite ;
 }
 
 @keyframes pulse-scale {
@@ -707,12 +707,12 @@ video {
 
   50% {
     transform: scale(1.1);
-    box-shadow: 0 0 20px rgba(4, 172, 49, 0.8) !important;
+    box-shadow: 0 0 20px rgba(4, 172, 49, 0.8);
   }
 }
 
 .animate-pulse-scale {
-  animation: pulse-scale 2s infinite !important;
+  animation: pulse-scale 2s infinite ;
 }
 
 @media (min-width: 768px) {
@@ -720,3 +720,7 @@ video {
     flex-direction: row;
   }
 }
+
+ 
+
+
