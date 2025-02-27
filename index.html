@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Finder</title>
+    <link rel="stylesheet" href="style.css">
+    <body class="bg-cover bg-center bg-no-repeat min-h-screen p-12 " style="background-image: url('./home.jpg');">
+
+</head>
+<body class="  " >
+
+    <nav class=" ">
+        <div class="">
+          <h1 class="text-white text-5xl font-extrabold ml-0 cursor-pointer">Book Finder </h1>
+        </div>
+    </nav>
+    <div class="max-w-4xl mx-auto bg-slate-200 mt-10 p-10 rounded-lg shadow-lg">
+        <h1 class="text-3xl font-semibold text-center mb-2 p-2">FIND BEST BOOK TO READ 📚</h1>
+        
+        <div class="flex flex-col md:flex-row gap-2">
+            <input type="text" id="search" placeholder="Search for books..." 
+                   class="border p-2 flex-1 rounded-lg">
+            <button id="searchBtn" class="bg-blue-500 text-white px-4 py-2 rounded-lg">Search</button>
+        </div>
+        
+        <div id="results" class="mt-6 space-y-4"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
